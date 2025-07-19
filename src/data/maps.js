@@ -1,7 +1,7 @@
 export const maps = {
   clubhouse: {
     name: "Clubhouse",
-    image: "/images/maps/clubhouse.jpg",
+    image: "/images/maps/R6S_Maps_ClubHouse_EXT.webp",
     description: "A biker gang clubhouse with multiple levels and tight corridors",
     sites: {
       "Cash Room": {
@@ -37,7 +37,7 @@ export const maps = {
   
   oregon: {
     name: "Oregon",
-    image: "/images/maps/oregon.jpg",
+    image: "/images/maps/r6-maps-oregon.webp",
     description: "A rural farmhouse with multiple buildings and outdoor areas",
     sites: {
       "Basement": {
@@ -73,7 +73,7 @@ export const maps = {
   
   bank: {
     name: "Bank",
-    image: "/images/maps/bank.jpg",
+    image: "/images/maps/R6S_Maps_Bank_EXT.webp",
     description: "A large financial institution with multiple floors",
     sites: {
       "Vault": {
@@ -109,7 +109,7 @@ export const maps = {
   
   consulate: {
     name: "Consulate",
-    image: "/images/maps/consulate.jpg",
+    image: "/images/maps/CONSULATE_REWORK_PREVIEW_03_960x540.webp",
     description: "A diplomatic building with formal architecture",
     sites: {
       "Garage": {
@@ -145,7 +145,7 @@ export const maps = {
   
   border: {
     name: "Border",
-    image: "/images/maps/border.jpg",
+    image: "/images/maps/R6S_Maps_Border_EXT.webp",
     description: "A border crossing facility with multiple checkpoints",
     sites: {
       "Armory": {
@@ -175,6 +175,161 @@ export const maps = {
         image: "/images/sites/border-tellers.jpg",
         difficulty: "Medium",
         bestOperators: ["valkyrie", "maestro", "smoke", "mute"]
+      }
+    }
+  },
+
+  nighthaven: {
+    name: "Nighthaven Labs",
+    image: "/images/maps/Nighthaven_labs_screen.webp",
+    description: "A high-tech research facility with multiple labs and secure areas.",
+    sites: {
+      "Lab A": {
+        name: "Lab A",
+        description: "Main laboratory with advanced tech.",
+        image: "/images/sites/nighthaven-lab-a.jpg",
+        difficulty: "Medium",
+        bestOperators: ["valkyrie", "maestro", "mute", "jager"]
+      }
+    }
+  },
+  coastline: {
+    name: "Coastline",
+    image: "/images/maps/r6-maps-coastline.webp",
+    description: "A vibrant seaside resort with open areas and tight corners.",
+    sites: {
+      "Hookah Lounge": {
+        name: "Hookah Lounge",
+        description: "Popular lounge with multiple entry points.",
+        image: "/images/sites/coastline-hookah.jpg",
+        difficulty: "Medium",
+        bestOperators: ["frost", "valkyrie", "mute", "jager"]
+      }
+    }
+  },
+  kanal: {
+    name: "Kanal",
+    image: "/images/maps/r6-maps-kanal.webp",
+    description: "A canal-side industrial complex with bridges and buildings.",
+    sites: {
+      "Server Room": {
+        name: "Server Room",
+        description: "Critical server infrastructure.",
+        image: "/images/sites/kanal-server.jpg",
+        difficulty: "Hard",
+        bestOperators: ["maestro", "mute", "kapkan", "jager"]
+      }
+    }
+  },
+  outback: {
+    name: "Outback",
+    image: "/images/maps/r6-maps-outback.webp",
+    description: "A remote Australian roadhouse with unique layouts.",
+    sites: {
+      "Nature Room": {
+        name: "Nature Room",
+        description: "Room with natural exhibits and open sightlines.",
+        image: "/images/sites/outback-nature.jpg",
+        difficulty: "Easy",
+        bestOperators: ["frost", "kapkan", "mute", "jager"]
+      }
+    }
+  },
+  skyscraper: {
+    name: "Skyscraper",
+    image: "/images/maps/r6-maps-skyscraper.webp",
+    description: "A Japanese high-rise with vertical gameplay.",
+    sites: {
+      "Tea Room": {
+        name: "Tea Room",
+        description: "Traditional tea room with destructible walls.",
+        image: "/images/sites/skyscraper-tea.jpg",
+        difficulty: "Medium",
+        bestOperators: ["valkyrie", "maestro", "mute", "frost"]
+      }
+    }
+  },
+  villa: {
+    name: "Villa",
+    image: "/images/maps/r6-maps-villa.webp",
+    description: "A luxurious Italian villa with many rooms and angles.",
+    sites: {
+      "Aviator Room": {
+        name: "Aviator Room",
+        description: "Room with open sightlines and classic decor.",
+        image: "/images/sites/villa-aviator.jpg",
+        difficulty: "Medium",
+        bestOperators: ["maestro", "mute", "valkyrie", "jager"]
+      }
+    }
+  },
+  chalet: {
+    name: "Chalet",
+    image: "/images/maps/R6S_Maps_Chalet_EXT.webp",
+    description: "A snowy mountain lodge with multiple floors.",
+    sites: {
+      "Wine Cellar": {
+        name: "Wine Cellar",
+        description: "Basement with tight angles and entry points.",
+        image: "/images/sites/chalet-wine.jpg",
+        difficulty: "Hard",
+        bestOperators: ["frost", "kapkan", "mute", "jager"]
+      }
+    }
+  },
+  emerald: {
+    name: "Emerald Plains",
+    image: "/images/maps/r6s_maps_emeraldplains__1_.webp",
+    description: "A modern country club with open spaces and verticality.",
+    sites: {
+      "Dining Room": {
+        name: "Dining Room",
+        description: "Large dining area with multiple entry points.",
+        image: "/images/sites/emerald-dining.jpg",
+        difficulty: "Medium",
+        bestOperators: ["valkyrie", "maestro", "mute", "frost"]
+      }
+    }
+  },
+  kafe: {
+    name: "Kafe Dostoyevsky",
+    image: "/images/maps/R6S_Maps_Kafe_Dostoyevsky_EXT.webp",
+    description: "A grand Russian café with multiple floors and open areas.",
+    sites: {
+      "Reading Room": {
+        name: "Reading Room",
+        description: "Elegant room with destructible walls.",
+        image: "/images/sites/kafe-reading.jpg",
+        difficulty: "Medium",
+        bestOperators: ["maestro", "mute", "valkyrie", "jager"]
+      }
+    }
+  },
+  lair: {
+    name: "Lair",
+    image: "/images/maps/r6s-maps-lair.webp",
+    description: "A secret underground lair with advanced security.",
+    sites: {
+      "Control Room": {
+        name: "Control Room",
+        description: "Central hub with surveillance equipment.",
+        image: "/images/sites/lair-control.jpg",
+        difficulty: "Hard",
+        bestOperators: ["valkyrie", "maestro", "mute", "kapkan"]
+      }
+    }
+  },
+  themepark: {
+    name: "Theme Park",
+    image: "/images/maps/rainbow6_maps_theme-park_thumbnail.webp",
+    description: "An abandoned amusement park with unique sightlines.",
+    sites: {
+      "Initiation Room": {
+        name: "Initiation Room",
+        description: "Room with carnival games and destructible walls.",
+        image: "/images/sites/themepark-initiation.jpg",
+        difficulty: "Medium",
+        bestOperators: ["frost", "kapkan", "mute", "jager"]
       }
     }
   }

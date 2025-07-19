@@ -3,7 +3,8 @@ export const operators = {
   nomad: {
     name: "Nomad",
     role: "attacker",
-    icon: "",
+    icon: "💨",
+    image: "/images/operators/r6-operators-list-nomad.webp",
     gadget: "Airjab Launcher",
     description: "Breaches soft walls and floors with a tactical hammer",
     strategies: {
@@ -41,7 +42,8 @@ export const operators = {
   zero: {
     name: "Zero",
     role: "attacker",
-    icon: "",
+    icon: "👁️",
+    image: "/images/operators/r6s-operator-list-zero.webp",
     gadget: "Argus Launcher",
     description: "Disables electronic devices with electromagnetic pulses",
     strategies: {
@@ -62,7 +64,8 @@ export const operators = {
   valkyrie: {
     name: "Valkyrie",
     role: "defender",
-    icon: "📹",
+    icon: "\uD83D\uDCF9",
+    image: "/images/operators/r6-operators-list-valkyrie.webp",
     gadget: "Black Eye Cameras",
     description: "Deployable surveillance cameras that stick to surfaces",
     strategies: {
@@ -132,7 +135,8 @@ export const operators = {
   maestro: {
     name: "Maestro",
     role: "defender",
-    icon: "🎯",
+    icon: "\uD83C\uDFAF",
+    image: "/images/operators/r6-operators-list-maestro.webp",
     gadget: "Evil Eye Cameras",
     description: "Bulletproof cameras that can shoot laser beams",
     strategies: {
@@ -163,7 +167,8 @@ export const operators = {
   mute: {
     name: "Mute",
     role: "defender",
-    icon: "🔇",
+    icon: "\uD83D\uDD07",
+    image: "/images/operators/r6-operators-list-mute.webp",
     gadget: "Signal Disruptors",
     description: "Jams electronic devices and drones",
     strategies: {
@@ -183,7 +188,8 @@ export const operators = {
   kapkan: {
     name: "Kapkan",
     role: "defender",
-    icon: "💣",
+    icon: "\uD83D\uDCA3",
+    image: "/images/operators/r6-operators-list-kapkan.webp",
     gadget: "Entry Denial Devices",
     description: "Explosive traps placed on doorways and windows",
     strategies: {
@@ -203,7 +209,8 @@ export const operators = {
   frost: {
     name: "Frost",
     role: "defender",
-    icon: "❄️",
+    icon: "\u2744\uFE0F",
+    image: "/images/operators/r6-operators-list-frost.webp",
     gadget: "Welcome Mats",
     description: "Bear traps that down attackers when stepped on",
     strategies: {
