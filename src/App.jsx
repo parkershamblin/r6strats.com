@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import StrategyBuilder from './components/StrategyBuilder'
 import StrategyViewer from './components/StrategyViewer'
-import Home from './components/Home'
 import './App.css'
 
 function App() {
@@ -17,9 +16,9 @@ function App() {
         <Header />
         <main className="container mx-auto px-4 py-8">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<StrategyBuilder />} />
             <Route 
-              path="/builder" 
+              path="/home" 
               element={
                 <StrategyBuilder 
                   selectedOperator={selectedOperator}

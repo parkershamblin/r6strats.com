@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { operators } from '../data/operators';
 import { getAllMaps } from '../data/maps';
 
-const StrategyBuilder = () => {
+const Home = () => {
   const [selectedOperator, setSelectedOperator] = useState(null);
   const [selectedMap, setSelectedMap] = useState(null);
   const navigate = useNavigate();
@@ -24,14 +24,19 @@ const StrategyBuilder = () => {
         <div className="oplist r6s-operators-list space-y-4">
           <div className="oplist__cards__wrapper grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
             {allOperators.map(([id, op]) => (
-              <div key={id} className={`oplist__card bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-200 ${selectedOperator === id ? 'ring-4 ring-r6-orange' : ''}`}>
+              <div
+                key={id}
+                className={`oplist__card bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-200 ${selectedOperator === id ? 'ring-4 ring-r6-orange' : ''}`}
+                style={{ width: '300px', height: '500px' }} // <-- Set your desired size here
+              >
                 <button
                   className="w-full h-full flex flex-col items-center group focus:outline-none"
                   onClick={() => setSelectedOperator(id)}
+                  style={{ width: '100%', height: '100%' }} // Make button fill the card
                 >
                   <img
-                    className="oplist__card__img w-full object-cover"
-                    style={{ aspectRatio: '16/9', height: 'auto', minHeight: '120px', maxHeight: '180px' }}
+                    className="oplist__card__img"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }} // Image fills the card
                     src={op.image}
                     alt={op.name}
                   />
@@ -76,4 +81,4 @@ const StrategyBuilder = () => {
   );
 };
 
-export default StrategyBuilder; 
+export default Home; 
